@@ -1,0 +1,11 @@
+difference()
+{
+    union()
+    {
+        cylinder(r=3.5,h=20);
+        translate([-12.5,-10,0])cube([25,30,6]);
+        translate([-12.5,10,6])cube([25,2,5]);
+    }
+    translate([-11,-9,1])cube([22,30,4]);
+    translate([-5,10,6])cube([18,2,2]);
+}
