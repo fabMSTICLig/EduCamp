@@ -15,6 +15,9 @@ ESP8266WebServer server(80);
 Servo myservoL; 
 Servo myservoR; 
 
+/**
+ * Led RGB pour l'oeil
+ */
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(1, D3, NEO_GRB + NEO_KHZ800);
 
 void handleRoot() {

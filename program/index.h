@@ -1,4 +1,6 @@
-
+/**
+ * Fichier contenant l'interface web charger en tant qu'index du micro serveur web de l'esp8266
+ */
 const char MAIN_page[] PROGMEM = R"=====(
 <html>
   <head>
