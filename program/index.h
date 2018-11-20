@@ -29,6 +29,15 @@ const char MAIN_page[] PROGMEM = R"=====(
         lb.addEventListener('touchend', ret("loff"), false);
         rb.addEventListener('touchstart', ret("rron"), false);
         rb.addEventListener('touchend', ret("roff"), false);
+
+        lf.addEventListener('mousedown', ret("lon"), false);
+        lf.addEventListener('mouseup', ret("loff"), false);
+        rf.addEventListener('mousedown', ret("ron"), false);
+        rf.addEventListener('mouseup', ret("roff"), false);
+        lb.addEventListener('mousedown', ret("lron"), false);
+        lb.addEventListener('mouseup', ret("loff"), false);
+        rb.addEventListener('mousedown', ret("rron"), false);
+        rb.addEventListener('mouseup', ret("roff"), false);
      
     }, false);
 
